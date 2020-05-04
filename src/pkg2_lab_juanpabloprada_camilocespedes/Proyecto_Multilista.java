@@ -426,7 +426,7 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
             escenarios++;
             showList (ptr);
         }else{
-            if(escenarios>5){
+            if(escenarios>=5){
                 JOptionPane.showMessageDialog (null, "Se excedio numero de escenarios", "ERROR", 0);
             }else{
                 JOptionPane.showMessageDialog (null, "No debe dejar campos en blanco", "ERROR", 0);
