@@ -323,7 +323,7 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         jLabel16.setText("Costo total del festival");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 450, -1, -1));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\JPPM\\Desktop\\Image\\27708407-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/27708407-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg"))); // NOI18N
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 870));
 
         pack();
