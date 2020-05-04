@@ -164,7 +164,6 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 62, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(240, 240, 240));
         jLabel4.setText("Numero del escenario:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 105, -1, -1));
 
@@ -183,7 +182,6 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         getContentPane().add(patrocinadorNom, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 142, 72, -1));
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(240, 240, 240));
         jLabel5.setText("Nombre patrocinador:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 145, -1, -1));
 
@@ -196,7 +194,7 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 661, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel7.setForeground(new java.awt.Color(0, 51, 51));
         jLabel7.setText("Presupuesto Patrocinador");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 190, -1, -1));
 
@@ -215,7 +213,6 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         getContentPane().add(cantidadFans, new org.netbeans.lib.awtextra.AbsoluteConstraints(143, 434, 72, -1));
 
         jLabel8.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Cantidad de fans:");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 437, -1, -1));
 
@@ -224,12 +221,12 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 333, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setForeground(new java.awt.Color(0, 51, 51));
         jLabel10.setText("Costo:");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 510, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setForeground(new java.awt.Color(0, 51, 51));
         jLabel11.setText("Nombre de la banda:");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 397, -1, -1));
 
@@ -279,7 +276,7 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         getContentPane().add(bandaCosto, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 507, 72, -1));
 
         jLabel15.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setForeground(new java.awt.Color(0, 51, 51));
         jLabel15.setText("Cantidad de canciones");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 473, -1, -1));
         getContentPane().add(cantidadC, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 467, 75, -1));
@@ -326,8 +323,8 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
         jLabel16.setText("Costo total del festival");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 450, -1, -1));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Concert.jpg"))); // NOI18N
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 770));
+        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\JPPM\\Desktop\\Image\\27708407-silhouettes-of-concert-crowd-in-front-of-bright-stage-lights.jpg")); // NOI18N
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 870));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
