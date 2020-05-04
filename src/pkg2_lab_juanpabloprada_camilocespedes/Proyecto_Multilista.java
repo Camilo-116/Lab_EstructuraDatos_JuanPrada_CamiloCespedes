@@ -62,7 +62,7 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
                 p = p.linkE;
             }
             p.linkE = escenario;
-            escenarios++;
+            
         }
         return ptr;
     }
@@ -418,14 +418,20 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
     }//GEN-LAST:event_BandaActionPerformed
 
     private void EscenarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EscenarioActionPerformed
-        if ( !escenarioNum.getText().isEmpty() && !patrocinadorNom.getText().isEmpty() && !presuPat.getText().isEmpty()){
+        if ( !escenarioNum.getText().isEmpty() && !patrocinadorNom.getText().isEmpty() && !presuPat.getText().isEmpty()&&escenarios<5){
             int n = Integer.parseInt(escenarioNum.getText());
             String nom = patrocinadorNom.getText();
             float pres = Float.parseFloat(presuPat.getText());
             ptr = AddEscenario (ptr, n, nom, pres);
+            escenarios++;
             showList (ptr);
         }else{
-            JOptionPane.showMessageDialog (null, "No debe dejar campos en blanco", "ERROR", 0);
+            if(escenarios>5){
+                JOptionPane.showMessageDialog (null, "Se excedio numero de escenarios", "ERROR", 0);
+            }else{
+                JOptionPane.showMessageDialog (null, "No debe dejar campos en blanco", "ERROR", 0);
+            }
+            
         }
         escenarioNum.setText("");
         patrocinadorNom.setText("");
