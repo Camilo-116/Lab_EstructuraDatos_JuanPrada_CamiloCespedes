@@ -389,16 +389,15 @@ public class Proyecto_Multilista extends javax.swing.JFrame {
                             q = q.linkB;
                         }
                         if ( (p.contB<10) ){
-                            if (q == p.linkB){
-                                if( q.cantidadFans < banda.cantidadFans){
-                                    banda.linkB = q;
+                            if( q.cantidadFans < banda.cantidadFans){
+                                banda.linkB = q;
+                                if ( q == p.linkB ){
                                     p.linkB = banda;
                                 }else{
-                                    q.linkB = banda;
+                                    antq.linkB = banda;
                                 }
                             }else{
-                                banda.linkB = q;
-                                antq.linkB = banda;
+                                q.linkB = banda;
                             }
                         }else{
                             p = p.linkE;
